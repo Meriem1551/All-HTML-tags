@@ -1,6 +1,6 @@
 Basic tags:
     h(1,....,6), 
-    p, 
+    p (block element)
     b: make a text bolder, 
     i: italic style
     br: make a space (you can add as much s you need)
@@ -22,7 +22,7 @@ Formating HTML:
         aside: for ads, content that dont have a direct relation to the core website
 
 Links:
-    a:
+    a: (inline element)
         blank: open the link in new tab
 
 Images:
@@ -33,3 +33,7 @@ Video:
     loop: start playing again automatically
 youtube:
     fo to share, embed, and copy the html code
+
+containes:
+    <span>: inline containes
+    <div> : block container
