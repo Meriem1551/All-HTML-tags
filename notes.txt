@@ -9,3 +9,14 @@ Basic tags:
     small: make the text smaller
     sub: put the word a little bellow the whole text
     sup: put the word a little above the whole text
+    h1
+        h2
+            h3
+        h2
+Formating HTML:
+    sections:
+        header: contains the navbar, logo...:
+            nav: for links
+        main: the main website contains articles section...
+        footer: contains additional navigation link
+        aside: for ads, content that dont have a direct relation to the core website 
