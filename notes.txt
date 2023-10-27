@@ -27,3 +27,9 @@ Links:
 
 Images:
     if i set either width or height html will resize the other correctly
+Video:
+    <video>
+    poster: add an image before the video starts
+    loop: start playing again automatically
+youtube:
+    fo to share, embed, and copy the html code
