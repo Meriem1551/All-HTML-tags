@@ -19,4 +19,8 @@ Formating HTML:
             nav: for links
         main: the main website contains articles section...
         footer: contains additional navigation link
-        aside: for ads, content that dont have a direct relation to the core website 
+        aside: for ads, content that dont have a direct relation to the core website
+
+Links:
+    a:
+        blank: open the link in new tab
