@@ -37,3 +37,6 @@ youtube:
 containes:
     <span>: inline containes
     <div> : block container
+
+input:
+    if a radio buttons have same name we can check just one of them
