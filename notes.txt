@@ -24,3 +24,6 @@ Formating HTML:
 Links:
     a:
         blank: open the link in new tab
+
+Images:
+    if i set either width or height html will resize the other correctly
