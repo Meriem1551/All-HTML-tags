@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Page 2</title>
 </head>
 <body>
@@ -48,7 +49,16 @@
         <textarea name="" id="" cols="30" rows="10"></textarea>
     </main>
     <footer>
-
+        <form>
+            <label for="choose">Would you prefer a banana or cherry?</label>
+            <input id="choose" name="i-like" required/>
+            <button>Submit</button>
+        </form>
+        <form>
+            <label for="choose">Would you prefer a banana or a cherry?</label>
+            <input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry"  minlength="6" maxlength="6"/>
+            <button>Submit</button>
+          </form>
     </footer>
 </body>
 </html>

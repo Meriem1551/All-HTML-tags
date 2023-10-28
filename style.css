@@ -1,0 +1,37 @@
+input:invalid {
+    border: 2px dashed red;
+}
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  }
+input:valid {
+    border: 2px solid black;
+}
+form {
+    font: 1em sans-serif;
+    max-width: 320px;
+    display: grid;
+    width: 50%;
+  }
+  
+  p > label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  fieldset {
+    width: 100%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
